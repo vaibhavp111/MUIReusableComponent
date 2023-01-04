@@ -1,0 +1,32 @@
+@media (max-width:1440px)/* for xlg screens */
+{
+
+}
+
+@media (max-width:1200px)/* for lg screens */
+{
+
+}
+
+@media (max-width:992px)/* for md screens */
+{
+    
+}
+
+@media (max-width:768px)/* for sm screens */
+{
+    
+}
+
+@media (max-width:560px)/* for mobile screens */
+{
+    
+}
+
+/*
+This is for MUI breakpoints
+ xs, extra-small: 0px
+sm, small: 600px
+md, medium: 900px
+lg, large: 1200px
+xl, extra-large: 1536px */

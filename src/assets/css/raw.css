@@ -1,0 +1,357 @@
+/* temp css */
+
+/* navbar start */
+.header {
+    background-color: var(--bg) !important;
+}
+
+.ico-col {
+    color: var(--black) !important;
+    border-color: var(--black) !important;
+}
+
+.prof-box img{
+    width: 12vh;
+    height: 12vh;
+    border-radius: 100%;
+    display: block;
+}
+.draw-acc{
+    width: 100% !important;
+}
+.sub-drawer .css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.sub-drawer .css-1elwnq4-MuiPaper-root-MuiAccordion-root:first-of-type {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.sub-drawer .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+    background-color: var(--tsp) !important;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0),0px 1px 1px 0px rgba(0,0,0,0),0px 1px 3px 0px rgba(0,0,0,0) !important;
+    position: relative;
+    -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow-anchor: none;
+    border-radius: 0;
+}
+/* navbar end */
+
+/* setting start */
+.set-card{
+    background-color: var(--opccardbg) !important;
+    border: 1px solid var(--borders) !important;
+    width: 40vw !important;
+}
+
+
+.sel-dd .css-vamk89-MuiFormControl-root {
+    margin: 0 !important;
+    border: 0;
+    vertical-align: top;
+    margin: 0px !important;
+    width: auto !important;
+    margin-top: 0px !important;
+}
+.sel-dd .MuiInputBase-root .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 8px 10px !important;
+}
+.sel-dd .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    background: var(--ipbg) !important;
+    color: var(--ipplaceholder) !important;
+}
+.sel-menu{
+    font-weight: 600 !important;
+    color: var(--icocol) !important;
+}
+.sel-menu:hover{
+    font-weight: 600 !important;
+    color: var(--hover) !important;
+    background: var(--tsp) !important;
+}
+.sel-menu:focus{
+    font-weight: 600 !important;
+    color: var(--hover) !important;
+    background: var(--tsp) !important;
+}
+.sel-dd .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: var(--hover) !important;
+}
+.sel-dd .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: var(--hover) !important;
+    border-width: 1px !important;
+}
+/* setting end */
+
+/* login start */
+.p-ext {
+    padding-top: 16vh !important;
+}
+
+.portals-ext {
+    padding-top: 10vh !important;
+}
+
+.logbg {
+    background-image: url('../imges/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.log-card {
+    /* width: 25%; */
+    width: 340px;
+    background-color: var(--opccardbg) !important;
+    text-align: center !important;
+}
+
+.log-ipbord input {
+    font: none !important;
+    letter-spacing: none !important;
+    color: var(--icocol) !important;
+    padding: 0px 0 0px !important;
+    border: 0px solid var(--logborder) !important;
+    border-radius: 4px !important;
+    height: 16px !important;
+    -webkit-animation-name: none !important;
+    animation-name: none !important;
+    -webkit-animation-duration: 0ms !important;
+    animation-duration: 0ms !important;
+    padding: 8px 12px !important;
+}
+
+.log-ipbord {
+    border: 2px solid var(--logborder) !important;
+    border-radius: 4px !important;
+    transition: 0.4s;
+}
+
+.log-ipbord:hover {
+    border: 2px solid var(--hover) !important;
+    border-radius: 4px !important;
+}
+
+.log-ipbord:focus {
+    border: 2px solid var(--hover) !important;
+    border-radius: 4px !important;
+}
+
+.log-ipbord:focus .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: rgb(0 0 0 / 0%) !important;
+}
+
+.log-ipbord:hover .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: rgb(0 0 0 / 0%) !important;
+}
+
+.log-ipbord .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: rgb(0 0 0 / 0%) !important;
+}
+
+.log-social {
+    height: 48px;
+    width: 48px;
+}
+
+.checkcol .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: var(--title) !important;
+}
+
+/* login start */
+
+/* admin portal start  */
+.dtpicker .MuiOutlinedInput-root .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    font: inherit;
+    letter-spacing: inherit;
+    color: var(--icocol) !important;
+    border: 1px solid var(--ipbg) !important;
+    box-sizing: content-box;
+    background: var(--ipbg) !important;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 100%;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    padding: 8px 10px !important;
+    padding-right: 0;
+}
+
+/* .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: var(--hover) !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: var(--hover) !important;
+    border-width: 1px !important
+} */
+
+.dtpicker .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--icocol) !important;
+    border: none !important;
+    background: var(--ipbg) !important;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
+
+.searchico {
+    background-color: var(--ipbg);
+    border: 1px solid var(--logborder);
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    border-radius: 4px;
+}
+
+.searchico:hover {
+    background-color: var(--ipbg);
+    border: 1px solid var(--hover);
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    border-radius: 4px;
+    color: var(--hover);
+}
+
+.reg-ipbox{
+    background-color: var(--ipbg) !important;
+    border: 1px solid var(--logborder) !important;
+    border-radius: 4px !important;
+}
+.reg-ipbox:hover{
+    background-color: var(--ipbg) !important;
+    border: 1px solid var(--hover) !important;
+    border-radius: 4px !important;
+}
+.reg-ipbox:focus{
+    background-color: var(--ipbg) !important;
+    border:5px solid var(--hover) !important;
+    border-radius: 4px !important;
+}
+
+.reg-ipbox .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family:"Helvetica","Arial",sans-serif !important;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.87);
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+    background-color: var(--tsp)  !important;
+    border: 0px solid var(--logborder) !important;
+    padding: 0px 0px !important;
+}
+
+.reg-ipbox .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 8px 10px !important;
+    border: 0px solid var(--logborder) !important;
+    border-radius: 4px !important;
+    background-color: var(--tsp) !important;
+}
+.reg-ipbox .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:hover {
+    padding: 8px 10px !important;
+    border: 0px solid var(--hover) !important;
+}
+/* .reg-ipbox .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:focus {
+    padding: 8px 10px !important;
+    border: 0px solid var(--hover) !important;
+} */
+
+.reg-ipbox .MuiInputBase-root .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-radius: 4px !important;
+    border-style: solid;
+    border-width: 0px !important;
+    border-color: var(--logborder) !important;
+}
+
+.reg-ipbox .MuiInputBase-root .css-1d3z3hw-MuiOutlinedInput-notchedOutline:hover {
+    border-radius: 4px !important;
+    border-style: solid;
+    border-width: 0px !important;
+    border-color: var(--hover) !important;
+}
+
+.ag .ag-theme-alpine .ag-root-wrapper {
+    border: solid 1px;
+    border-color: #babfc7;
+    border-color: var(--ag-border-color, #babfc7);
+    border-radius: 8px !important;
+}
+
+/* admin portal end  */
+
+/* tabs css start */
+
+.tab-panel.css-1ujnqem-MuiTabs-root {
+    min-height: 30px !important;
+}
+.tab-panel .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    text-decoration: none;
+    font-family: "Helvetica","Arial",sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    min-height: 30px !important;
+    padding: 8px 16px !important;
+    color: var(--tblheadtext) !important;
+}
+.tab-panel .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: var(--white) !important;
+    background-color: var(--title) !important;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    padding: 8px 16px !important;
+}
+.tab-panel .css-1aquho2-MuiTabs-indicator {
+    background-color: var(--title) !important;
+}
+.tab-panel .css-10d9dml-MuiTabs-indicator {
+    background-color: var(--title) !important;
+}
+/* tabs css end */
+
+/* temp css */
